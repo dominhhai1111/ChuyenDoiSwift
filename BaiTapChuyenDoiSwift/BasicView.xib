@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BasicView">
+            <connections>
+                <outlet property="alphaSlider" destination="kwx-a0-HFx" id="q2d-2L-fz6"/>
+                <outlet property="colorChangeSegmentedControl" destination="iel-A8-LPZ" id="Kg3-Mf-hbN"/>
+                <outlet property="myView" destination="IPB-Yw-0aH" id="Gry-3A-Xa8"/>
+                <outlet property="rotateSlider" destination="LVw-jw-7Ng" id="GOy-Ze-Qck"/>
+                <outlet property="scaleSlider" destination="gcD-IX-3Lk" id="Wpx-F6-A1G"/>
+                <outlet property="showSwitch" destination="rv9-GK-3UE" id="X99-aH-qgG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alpha" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhU-Rl-kjJ">
+                    <rect key="frame" x="27" y="358" width="50" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rotate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0f-vJ-QuR">
+                    <rect key="frame" x="24" y="423" width="57" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scale" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbp-8u-bwB">
+                    <rect key="frame" x="27" y="485" width="50" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Show" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0K7-AQ-qvi">
+                    <rect key="frame" x="124" y="302" width="50" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rv9-GK-3UE">
+                    <rect key="frame" x="182" y="297" width="51" height="31"/>
+                    <connections>
+                        <action selector="onShow:" destination="-1" eventType="valueChanged" id="h3t-3G-DGa"/>
+                    </connections>
+                </switch>
+                <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="LVw-jw-7Ng">
+                    <rect key="frame" x="83" y="419" width="247" height="31"/>
+                    <connections>
+                        <action selector="onRotate:" destination="-1" eventType="valueChanged" id="FLt-jN-V2q"/>
+                    </connections>
+                </slider>
+                <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="gcD-IX-3Lk">
+                    <rect key="frame" x="83" y="485" width="247" height="31"/>
+                    <connections>
+                        <action selector="onScaleChange:" destination="-1" eventType="valueChanged" id="ykC-hX-CTp"/>
+                    </connections>
+                </slider>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jfO-hc-XdF">
+                    <rect key="frame" x="27" y="553" width="301" height="29"/>
+                    <segments>
+                        <segment title="Black"/>
+                        <segment title="Red"/>
+                        <segment title="Green"/>
+                        <segment title="Blue"/>
+                    </segments>
+                    <connections>
+                        <action selector="onColorChange:" destination="-1" eventType="valueChanged" id="3bk-q1-d4G"/>
+                    </connections>
+                </segmentedControl>
+                <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="kwx-a0-HFx">
+                    <rect key="frame" x="83" y="354" width="247" height="31"/>
+                    <connections>
+                        <action selector="onAlphaChange:" destination="-1" eventType="valueChanged" id="h0r-h9-ImI"/>
+                    </connections>
+                </slider>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="iel-A8-LPZ">
+                    <rect key="frame" x="27" y="556" width="301" height="29"/>
+                    <segments>
+                        <segment title="black"/>
+                        <segment title="red"/>
+                        <segment title="green"/>
+                        <segment title="blue"/>
+                    </segments>
+                    <connections>
+                        <action selector="onColorChange:" destination="-1" eventType="valueChanged" id="dI0-Sg-GAu"/>
+                    </connections>
+                </segmentedControl>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IPB-Yw-0aH">
+                    <rect key="frame" x="37" y="74" width="301" height="155"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aRT-9R-M61">
+                    <rect key="frame" x="57" y="49" width="240" height="128"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A4A-yk-U9b">
+                    <rect key="frame" x="113" y="124" width="118" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="9F5-p1-QcZ">
+                    <rect key="frame" x="112" y="536" width="188" height="115"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="4" id="7Ak-tI-qQx">
+                        <size key="itemSize" width="44" height="12"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cdA-yd-JdI">
+                    <rect key="frame" x="51" y="42" width="273" height="176"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6jK-WY-XjC">
+                    <rect key="frame" x="36" y="75" width="282" height="143"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="6jK-WY-XjC" secondAttribute="centerX" id="Yvk-Po-3eu"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="jfO-hc-XdF"/>
+                    <exclude reference="aRT-9R-M61"/>
+                    <exclude reference="A4A-yk-U9b"/>
+                    <exclude reference="9F5-p1-QcZ"/>
+                    <exclude reference="cdA-yd-JdI"/>
+                    <exclude reference="6jK-WY-XjC"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="395.5" y="280.5"/>
+        </view>
+    </objects>
+</document>

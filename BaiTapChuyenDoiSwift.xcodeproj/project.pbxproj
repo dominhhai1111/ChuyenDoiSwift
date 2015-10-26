@@ -8,49 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		E1C7CC1A1BDB1E3A00D567D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C7CC191BDB1E3A00D567D5 /* main.m */; };
-		E1C7CC1D1BDB1E3A00D567D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C7CC1C1BDB1E3A00D567D5 /* AppDelegate.m */; };
-		E1C7CC201BDB1E3A00D567D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C7CC1F1BDB1E3A00D567D5 /* ViewController.m */; };
-		E1C7CC231BDB1E3A00D567D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C7CC211BDB1E3A00D567D5 /* Main.storyboard */; };
 		E1C7CC251BDB1E3A00D567D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C7CC241BDB1E3A00D567D5 /* Images.xcassets */; };
 		E1C7CC281BDB1E3A00D567D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C7CC261BDB1E3A00D567D5 /* LaunchScreen.xib */; };
-		E1C7CC341BDB1E3A00D567D5 /* BaiTapChuyenDoiSwiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C7CC331BDB1E3A00D567D5 /* BaiTapChuyenDoiSwiftTests.m */; };
+		E1C7CC531BDB226E00D567D5 /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C7CC4D1BDB226E00D567D5 /* BootLogic.m */; };
+		E1C7CC541BDB226E00D567D5 /* ConsoleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C7CC4F1BDB226E00D567D5 /* ConsoleScreen.m */; };
+		E1C7CC551BDB226E00D567D5 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C7CC511BDB226E00D567D5 /* MainScreen.m */; };
+		E1C7CC581BDB233D00D567D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C7CC571BDB233D00D567D5 /* AppDelegate.m */; };
+		E1C7CC631BDB2C3700D567D5 /* BasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C7CC611BDB2C3700D567D5 /* BasicView.m */; };
+		E1C7CC641BDB2C3700D567D5 /* BasicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C7CC621BDB2C3700D567D5 /* BasicView.xib */; };
+		E1C7CC671BDB2C5100D567D5 /* ChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C7CC661BDB2C5100D567D5 /* ChessView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E1C7CC2E1BDB1E3A00D567D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E1C7CC0C1BDB1E3900D567D5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E1C7CC131BDB1E3A00D567D5;
-			remoteInfo = BaiTapChuyenDoiSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E1C7CC141BDB1E3A00D567D5 /* BaiTapChuyenDoiSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiTapChuyenDoiSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C7CC181BDB1E3A00D567D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1C7CC191BDB1E3A00D567D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E1C7CC1B1BDB1E3A00D567D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E1C7CC1C1BDB1E3A00D567D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E1C7CC1E1BDB1E3A00D567D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E1C7CC1F1BDB1E3A00D567D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E1C7CC221BDB1E3A00D567D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1C7CC241BDB1E3A00D567D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E1C7CC271BDB1E3A00D567D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E1C7CC2D1BDB1E3A00D567D5 /* BaiTapChuyenDoiSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiTapChuyenDoiSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1C7CC321BDB1E3A00D567D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1C7CC331BDB1E3A00D567D5 /* BaiTapChuyenDoiSwiftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiTapChuyenDoiSwiftTests.m; sourceTree = "<group>"; };
+		E1C7CC4C1BDB226E00D567D5 /* BootLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootLogic.h; sourceTree = "<group>"; };
+		E1C7CC4D1BDB226E00D567D5 /* BootLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootLogic.m; sourceTree = "<group>"; };
+		E1C7CC4E1BDB226E00D567D5 /* ConsoleScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleScreen.h; sourceTree = "<group>"; };
+		E1C7CC4F1BDB226E00D567D5 /* ConsoleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleScreen.m; sourceTree = "<group>"; };
+		E1C7CC501BDB226E00D567D5 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		E1C7CC511BDB226E00D567D5 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		E1C7CC561BDB233D00D567D5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1C7CC571BDB233D00D567D5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1C7CC601BDB2C3700D567D5 /* BasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicView.h; sourceTree = "<group>"; };
+		E1C7CC611BDB2C3700D567D5 /* BasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicView.m; sourceTree = "<group>"; };
+		E1C7CC621BDB2C3700D567D5 /* BasicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicView.xib; sourceTree = "<group>"; };
+		E1C7CC651BDB2C5100D567D5 /* ChessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessView.h; sourceTree = "<group>"; };
+		E1C7CC661BDB2C5100D567D5 /* ChessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E1C7CC111BDB1E3A00D567D5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1C7CC2A1BDB1E3A00D567D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				E1C7CC161BDB1E3A00D567D5 /* BaiTapChuyenDoiSwift */,
-				E1C7CC301BDB1E3A00D567D5 /* BaiTapChuyenDoiSwiftTests */,
 				E1C7CC151BDB1E3A00D567D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				E1C7CC141BDB1E3A00D567D5 /* BaiTapChuyenDoiSwift.app */,
-				E1C7CC2D1BDB1E3A00D567D5 /* BaiTapChuyenDoiSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,11 +70,8 @@
 		E1C7CC161BDB1E3A00D567D5 /* BaiTapChuyenDoiSwift */ = {
 			isa = PBXGroup;
 			children = (
-				E1C7CC1B1BDB1E3A00D567D5 /* AppDelegate.h */,
-				E1C7CC1C1BDB1E3A00D567D5 /* AppDelegate.m */,
-				E1C7CC1E1BDB1E3A00D567D5 /* ViewController.h */,
-				E1C7CC1F1BDB1E3A00D567D5 /* ViewController.m */,
-				E1C7CC211BDB1E3A00D567D5 /* Main.storyboard */,
+				E1C7CC3D1BDB1F8C00D567D5 /* Core */,
+				E1C7CC591BDB266200D567D5 /* UIViewBasic */,
 				E1C7CC241BDB1E3A00D567D5 /* Images.xcassets */,
 				E1C7CC261BDB1E3A00D567D5 /* LaunchScreen.xib */,
 				E1C7CC171BDB1E3A00D567D5 /* Supporting Files */,
@@ -102,21 +88,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E1C7CC301BDB1E3A00D567D5 /* BaiTapChuyenDoiSwiftTests */ = {
+		E1C7CC3D1BDB1F8C00D567D5 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				E1C7CC331BDB1E3A00D567D5 /* BaiTapChuyenDoiSwiftTests.m */,
-				E1C7CC311BDB1E3A00D567D5 /* Supporting Files */,
+				E1C7CC561BDB233D00D567D5 /* AppDelegate.h */,
+				E1C7CC571BDB233D00D567D5 /* AppDelegate.m */,
+				E1C7CC4C1BDB226E00D567D5 /* BootLogic.h */,
+				E1C7CC4D1BDB226E00D567D5 /* BootLogic.m */,
+				E1C7CC4E1BDB226E00D567D5 /* ConsoleScreen.h */,
+				E1C7CC4F1BDB226E00D567D5 /* ConsoleScreen.m */,
+				E1C7CC501BDB226E00D567D5 /* MainScreen.h */,
+				E1C7CC511BDB226E00D567D5 /* MainScreen.m */,
 			);
-			path = BaiTapChuyenDoiSwiftTests;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		E1C7CC311BDB1E3A00D567D5 /* Supporting Files */ = {
+		E1C7CC591BDB266200D567D5 /* UIViewBasic */ = {
 			isa = PBXGroup;
 			children = (
-				E1C7CC321BDB1E3A00D567D5 /* Info.plist */,
+				E1C7CC601BDB2C3700D567D5 /* BasicView.h */,
+				E1C7CC611BDB2C3700D567D5 /* BasicView.m */,
+				E1C7CC621BDB2C3700D567D5 /* BasicView.xib */,
+				E1C7CC651BDB2C5100D567D5 /* ChessView.h */,
+				E1C7CC661BDB2C5100D567D5 /* ChessView.m */,
 			);
-			name = "Supporting Files";
+			name = UIViewBasic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,24 +135,6 @@
 			productReference = E1C7CC141BDB1E3A00D567D5 /* BaiTapChuyenDoiSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E1C7CC2C1BDB1E3A00D567D5 /* BaiTapChuyenDoiSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E1C7CC3A1BDB1E3A00D567D5 /* Build configuration list for PBXNativeTarget "BaiTapChuyenDoiSwiftTests" */;
-			buildPhases = (
-				E1C7CC291BDB1E3A00D567D5 /* Sources */,
-				E1C7CC2A1BDB1E3A00D567D5 /* Frameworks */,
-				E1C7CC2B1BDB1E3A00D567D5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E1C7CC2F1BDB1E3A00D567D5 /* PBXTargetDependency */,
-			);
-			name = BaiTapChuyenDoiSwiftTests;
-			productName = BaiTapChuyenDoiSwiftTests;
-			productReference = E1C7CC2D1BDB1E3A00D567D5 /* BaiTapChuyenDoiSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +146,6 @@
 				TargetAttributes = {
 					E1C7CC131BDB1E3A00D567D5 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					E1C7CC2C1BDB1E3A00D567D5 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = E1C7CC131BDB1E3A00D567D5;
 					};
 				};
 			};
@@ -189,7 +163,6 @@
 			projectRoot = "";
 			targets = (
 				E1C7CC131BDB1E3A00D567D5 /* BaiTapChuyenDoiSwift */,
-				E1C7CC2C1BDB1E3A00D567D5 /* BaiTapChuyenDoiSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +172,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C7CC231BDB1E3A00D567D5 /* Main.storyboard in Resources */,
+				E1C7CC641BDB2C3700D567D5 /* BasicView.xib in Resources */,
 				E1C7CC281BDB1E3A00D567D5 /* LaunchScreen.xib in Resources */,
 				E1C7CC251BDB1E3A00D567D5 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1C7CC2B1BDB1E3A00D567D5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,39 +185,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C7CC201BDB1E3A00D567D5 /* ViewController.m in Sources */,
-				E1C7CC1D1BDB1E3A00D567D5 /* AppDelegate.m in Sources */,
+				E1C7CC531BDB226E00D567D5 /* BootLogic.m in Sources */,
+				E1C7CC551BDB226E00D567D5 /* MainScreen.m in Sources */,
+				E1C7CC671BDB2C5100D567D5 /* ChessView.m in Sources */,
+				E1C7CC541BDB226E00D567D5 /* ConsoleScreen.m in Sources */,
 				E1C7CC1A1BDB1E3A00D567D5 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1C7CC291BDB1E3A00D567D5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1C7CC341BDB1E3A00D567D5 /* BaiTapChuyenDoiSwiftTests.m in Sources */,
+				E1C7CC581BDB233D00D567D5 /* AppDelegate.m in Sources */,
+				E1C7CC631BDB2C3700D567D5 /* BasicView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		E1C7CC2F1BDB1E3A00D567D5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E1C7CC131BDB1E3A00D567D5 /* BaiTapChuyenDoiSwift */;
-			targetProxy = E1C7CC2E1BDB1E3A00D567D5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		E1C7CC211BDB1E3A00D567D5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1C7CC221BDB1E3A00D567D5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E1C7CC261BDB1E3A00D567D5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,40 +309,6 @@
 			};
 			name = Release;
 		};
-		E1C7CC3B1BDB1E3A00D567D5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BaiTapChuyenDoiSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiTapChuyenDoiSwift.app/BaiTapChuyenDoiSwift";
-			};
-			name = Debug;
-		};
-		E1C7CC3C1BDB1E3A00D567D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BaiTapChuyenDoiSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiTapChuyenDoiSwift.app/BaiTapChuyenDoiSwift";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -416,14 +328,7 @@
 				E1C7CC391BDB1E3A00D567D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		E1C7CC3A1BDB1E3A00D567D5 /* Build configuration list for PBXNativeTarget "BaiTapChuyenDoiSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E1C7CC3B1BDB1E3A00D567D5 /* Debug */,
-				E1C7CC3C1BDB1E3A00D567D5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ChessView.h
 //  BaiTapChuyenDoiSwift
 //
 //  Created by Do Minh Hai on 10/24/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ChessView : UIViewController
 
 @end
-
